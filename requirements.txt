@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+requests
+python-dotenv
+gpt4all
+jsonschema
+tenacity
+pytest
+pydantic
+
