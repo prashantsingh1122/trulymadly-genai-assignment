@@ -61,6 +61,7 @@ curl -X POST "http://127.0.0.1:8000/run" \
 
 ## Known Limitations / Tradeoffs
 
+- The current planner-to-tool mapping is heuristic-based and may not always select the most appropriate tool for some queries (for example, trending or location-based repository searches), which can lead to incomplete or suboptimal tool execution.
 - The local LLM (GPT4All) may occasionally produce invalid or incomplete JSON plans
 - Planning quality depends on the selected local model and its size
 - The system does not use memory or conversation history
